@@ -31,6 +31,7 @@
 		4E87C6AE24AB15700A39FC24A2F1C93B /* BeLessThanOrEqual.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62CA5DD416A5C21EC059C4AF8C4DD306 /* BeLessThanOrEqual.swift */; };
 		4EA833954B865A2D24861DE1D262C126 /* Example.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB3A3FA130DF2640EB905BF58B3A65A /* Example.swift */; };
 		512DFAE728521F02AF225F0082195DCC /* Nimble.h in Headers */ = {isa = PBXBuildFile; fileRef = C7B62398378BFCB4128C7F3D17EB5165 /* Nimble.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		53694E2D1C0AF8A7005EBE45 /* ObservableBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53694E2C1C0AF8A7005EBE45 /* ObservableBox.swift */; };
 		58EBA2C1A43283FB2188AB1FB592D32B /* DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8CA556B11E14ADF7CFB82217E5F0BC /* DSL.swift */; };
 		61792BC24E914DA33086345F16244B6E /* MiniBond.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 92E9D2E0A4ACEF6330FA89E653E337DD /* MiniBond.bundle */; };
 		64861DABAD8C65DBD41ECA3736EBAA53 /* SuiteHooks.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC308A130D40E74471D41AE77CCA3A08 /* SuiteHooks.swift */; };
@@ -169,6 +170,7 @@
 		4CE93BC0997802F81E7D56E4EFEB6FF0 /* Pods-MiniBond_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MiniBond_Tests-resources.sh"; sourceTree = "<group>"; };
 		4F3A4C17D73D7E45EBDEB5AA7B6808BD /* BeIdenticalTo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeIdenticalTo.swift; path = Nimble/Matchers/BeIdenticalTo.swift; sourceTree = "<group>"; };
 		5165849C00C96B964821907627727CF8 /* ObjCExpectation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ObjCExpectation.swift; path = Nimble/ObjCExpectation.swift; sourceTree = "<group>"; };
+		53694E2C1C0AF8A7005EBE45 /* ObservableBox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObservableBox.swift; sourceTree = "<group>"; };
 		53E4DE3CC548963AF4051F4A0DBFA706 /* NMBExceptionCapture.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NMBExceptionCapture.h; path = Nimble/objc/NMBExceptionCapture.h; sourceTree = "<group>"; };
 		54CB0FC160653FF67FEF948B953503C9 /* Pods_MiniBond_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MiniBond_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		54E593BE03BBAD03C80AF7A9CA76F5D3 /* BeGreaterThan.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeGreaterThan.swift; path = Nimble/Matchers/BeGreaterThan.swift; sourceTree = "<group>"; };
@@ -547,6 +549,7 @@
 			isa = PBXGroup;
 			children = (
 				CF607F86CE043EEFF7B07B9E2A801905 /* Observable.swift */,
+				53694E2C1C0AF8A7005EBE45 /* ObservableBox.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -768,6 +771,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				15F0AEA25B1ECE3C13A609031EB14F54 /* MiniBond-dummy.m in Sources */,
+				53694E2D1C0AF8A7005EBE45 /* ObservableBox.swift in Sources */,
 				DA24FE52005451E22224A256EA8966C5 /* Observable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
