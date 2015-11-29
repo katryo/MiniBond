@@ -76,7 +76,7 @@
 		D5D3405C74FA426E51081F6758BF957A /* Pods-MiniBond_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A61C60DEAF67C86ED51E533D5CE44D /* Pods-MiniBond_Tests-dummy.m */; };
 		D7B45D4600C6166C124C0A926EE65284 /* Functional.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835372EA4E597CA067BB75EC32A742E1 /* Functional.swift */; };
 		D957210288FCD0426D854DACE422E077 /* QCKDSL.h in Headers */ = {isa = PBXBuildFile; fileRef = 11C9EDEF972C48E396B80C95C84F8BB2 /* QCKDSL.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DA24FE52005451E22224A256EA8966C5 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF607F86CE043EEFF7B07B9E2A801905 /* ReplaceMe.swift */; };
+		DA24FE52005451E22224A256EA8966C5 /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF607F86CE043EEFF7B07B9E2A801905 /* Observable.swift */; };
 		DA374369414CA1647A344567A230F090 /* Quick-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D6DD3A41394A7B90F43BAA4CF03E61B0 /* Quick-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DEE170DD3064F7343884A4016546B762 /* DSL+Wait.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8E03A62A0C7274FFAA612902B3999B1 /* DSL+Wait.swift */; };
 		E2FBD93D72DF01427486D1A6853FC689 /* Expectation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD91E90C5C99C24DE5B8A17CB1B7C87 /* Expectation.swift */; };
@@ -221,7 +221,7 @@
 		CAC2F5620708FEA802ADA730E16EAD4E /* Stringers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Stringers.swift; path = Nimble/Utils/Stringers.swift; sourceTree = "<group>"; };
 		CB8267CC416814DC9E4AE9E3E623F3A8 /* AssertionRecorder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AssertionRecorder.swift; path = Nimble/Adapters/AssertionRecorder.swift; sourceTree = "<group>"; };
 		CDDC53E6DA161CF619537D897C7672D4 /* AllPass.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AllPass.swift; path = Nimble/Matchers/AllPass.swift; sourceTree = "<group>"; };
-		CF607F86CE043EEFF7B07B9E2A801905 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
+		CF607F86CE043EEFF7B07B9E2A801905 /* Observable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
 		CFB3A3FA130DF2640EB905BF58B3A65A /* Example.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Example.swift; path = Quick/Example.swift; sourceTree = "<group>"; };
 		D65B945C67830A881016898802D6C8A2 /* Nimble.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Nimble.xcconfig; sourceTree = "<group>"; };
 		D6DD3A41394A7B90F43BAA4CF03E61B0 /* Quick-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Quick-umbrella.h"; sourceTree = "<group>"; };
@@ -546,7 +546,7 @@
 		E633A751BFC89C0ADF7BE9C1C2E9FEE1 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				CF607F86CE043EEFF7B07B9E2A801905 /* ReplaceMe.swift */,
+				CF607F86CE043EEFF7B07B9E2A801905 /* Observable.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -768,7 +768,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				15F0AEA25B1ECE3C13A609031EB14F54 /* MiniBond-dummy.m in Sources */,
-				DA24FE52005451E22224A256EA8966C5 /* ReplaceMe.swift in Sources */,
+				DA24FE52005451E22224A256EA8966C5 /* Observable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
