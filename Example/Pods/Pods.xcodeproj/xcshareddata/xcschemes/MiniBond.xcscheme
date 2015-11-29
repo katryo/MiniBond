@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'EA9436F5DCDEA27CBB339244'
+               BlueprintIdentifier = '1917F12778588015773D7E96'
                BlueprintName = 'MiniBond'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'MiniBond.framework'>

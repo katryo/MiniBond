@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "F00C17C6F1ECA7538EA5563EB51B22463FA37A64",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "F00C17C6F1ECA7538EA5563EB51B22463FA37A64" : 0,
+    "B89C34804C10A9BF5994C893DB69629F05FC846E" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "D038DBBD-CB68-4DBC-A3EB-D2ABC0F6E114",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "F00C17C6F1ECA7538EA5563EB51B22463FA37A64" : "MiniBond\/",
+    "B89C34804C10A9BF5994C893DB69629F05FC846E" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "MiniBond",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Example\/MiniBond.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:katryo\/MiniBond.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B89C34804C10A9BF5994C893DB69629F05FC846E"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:katryo\/MiniBond.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F00C17C6F1ECA7538EA5563EB51B22463FA37A64"
+    }
+  ]
+}
