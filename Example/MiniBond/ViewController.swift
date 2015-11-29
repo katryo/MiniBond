@@ -2,24 +2,26 @@ import UIKit
 import MiniBond
 
 class ViewController: UIViewController {
-    var textObservable: Observable<String>?
-    var textInAppear = EventProducer<String>?()
+    var count = EventProducer<Int>(0)
+    var countObservable: Observable<Int>?
+
+    @IBOutlet weak var countLabel: UILabel!
+
+    @IBAction func buttonPushed(sender: UIButton) {
+        count.value += 1
+    }
 
     override func viewDidLoad() {
-
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-
-        textObservable = Observable<String>{ [unowned self] text in
-            print(text)
+        
+        countObservable = Observable<Int>{ [unowned self] count in
+            self.countLabel.text = String(self.count.value)
         }
-        textInAppear = EventProducer("abb")
-        textObservable!.bindTo(textInAppear!)
+        countObservable?.bindTo(count)
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
 
 }

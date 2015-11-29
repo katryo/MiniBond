@@ -18,7 +18,7 @@ public class EventProducer<T> {
     
     public var observableBoxes: [ObservableBox<T>] = []
     
-    public init(_ v: T) {
-        self.value = v
+    public init(_ value: T) {
+        self.value = value
     }
 }
