@@ -15,23 +15,24 @@ Pod::Spec.new do |s|
 #   * Think: What does it do? Why did you write it? What is the focus?
 #   * Try to keep it short, snappy and to the point.
 #   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!  
+#   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description      = <<-DESC
+  A very tiny toolkit for reactive programming.
                        DESC
 
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/MiniBond"
+  s.homepage         = "https://github.com/katryo/MiniBond"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Ryo Kato" => "katoryo55@gmail.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/MiniBond.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => "https://github.com/katryo/MiniBond.git", :tag => s.version.to_s }
+  s.social_media_url = 'https://twitter.com/katryo'
 
   s.platform     = :ios, '8.0'
   s.requires_arc = true
 
-  s.source_files = 'Pod/Classes/**/*'
+  s.source_files = 'Pod/Classes/*.swift'
   s.resource_bundles = {
-    'MiniBond' => ['Pod/Assets/*.png']
+    'MiniBond' => []
   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
