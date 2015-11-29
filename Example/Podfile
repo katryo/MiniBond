@@ -1,0 +1,13 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'MiniBond_Example', :exclusive => true do
+  pod "MiniBond", :path => "../"
+end
+
+target 'MiniBond_Tests', :exclusive => true do
+  pod "MiniBond", :path => "../"
+
+  pod 'Quick', '~> 0.3.1'
+  pod 'Nimble'
+end
