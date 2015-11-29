@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = "MiniBond"
   s.version          = "0.1.0"
-  s.summary          = "A short description of MiniBond."
+  s.summary          = "A very tiny toolkit for reactive programming in Swift."
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,7 +17,9 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description      = <<-DESC
-  A very tiny toolkit for reactive programming.
+  MiniBond make it easy to to implement reactive procedures. This library's main
+  idea is came from SwiftBond. SwiftBond is a great library, but is too big
+  for me, so I created MiniBond that just solves simple problems.
                        DESC
 
   s.homepage         = "https://github.com/katryo/MiniBond"
