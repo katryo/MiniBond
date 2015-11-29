@@ -17,21 +17,27 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lfk-cS-yVh">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lfk-cS-yVh">
                                 <rect key="frame" x="277" y="285" width="46" height="30"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
                                     <action selector="buttonPushed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="ZfL-Kn-Adw"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3qj-lq-i3c">
-                                <rect key="frame" x="279" y="210" width="42" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3qj-lq-i3c">
+                                <rect key="frame" x="166" y="210" width="269" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="3qj-lq-i3c" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="4SY-y6-BZJ"/>
+                            <constraint firstItem="Lfk-cS-yVh" firstAttribute="top" secondItem="3qj-lq-i3c" secondAttribute="bottom" constant="54" id="MdN-Kp-ijA"/>
+                            <constraint firstItem="Lfk-cS-yVh" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="Nfy-Zf-cHm"/>
+                            <constraint firstItem="Lfk-cS-yVh" firstAttribute="centerY" secondItem="kh9-bI-dsS" secondAttribute="centerY" id="dl3-ab-wCt"/>
+                        </constraints>
                     </view>
                     <connections>
                         <outlet property="countLabel" destination="3qj-lq-i3c" id="8C5-vY-b9f"/>
@@ -39,6 +45,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="149" y="479"/>
         </scene>
     </scenes>
 </document>
