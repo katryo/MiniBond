@@ -22,7 +22,7 @@ pod "MiniBond"
 
 ## Author
 
-Ryo Kato, katoryo55@gmail.com
+katryo
 
 ## License
 
