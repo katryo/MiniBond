@@ -1,6 +1,6 @@
-class ObservableBox<T> {
-    weak var observable: Observable<T>?
-    init(_ observable: Observable<T>) {
+public class ObservableBox<T> {
+    public weak var observable: Observable<T>?
+    public init(_ observable: Observable<T>) {
         self.observable = observable
     }
 }

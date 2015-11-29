@@ -1,12 +1,12 @@
-class Observable<T> {
-    typealias Listener = T -> Void
-    var listener: Listener
+public class Observable<T> {
+    public typealias Listener = T -> Void
+    public var listener: Listener
     
-    init(_ listener: Listener) {
+    public init(_ listener: Listener) {
         self.listener = listener
     }
     
-    func bindTo(eventProducer: EventProducer<T>) {
+    public func bindTo(eventProducer: EventProducer<T>) {
         eventProducer.observableBoxes.append(ObservableBox(self))
     }
 }

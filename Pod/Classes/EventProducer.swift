@@ -1,5 +1,5 @@
-class EventProducer<T> {
-    var value: T {
+public class EventProducer<T> {
+    public var value: T {
         didSet {
             observableBoxes = observableBoxes.filter(
                 {
@@ -16,9 +16,9 @@ class EventProducer<T> {
         }
     }
     
-    var observableBoxes: [ObservableBox<T>] = []
+    public var observableBoxes: [ObservableBox<T>] = []
     
-    init(_ v: T) {
-        value = v
+    public init(_ v: T) {
+        self.value = v
     }
 }
