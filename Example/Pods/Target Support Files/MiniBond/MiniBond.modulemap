@@ -1,0 +1,6 @@
+framework module MiniBond {
+  umbrella header "MiniBond-umbrella.h"
+
+  export *
+  module * { export * }
+}

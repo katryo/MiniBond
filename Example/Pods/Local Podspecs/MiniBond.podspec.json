@@ -1,0 +1,25 @@
+{
+  "name": "MiniBond",
+  "version": "0.1.0",
+  "summary": "A short description of MiniBond.",
+  "description": "",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/MiniBond",
+  "license": "MIT",
+  "authors": {
+    "Ryo Kato": "katoryo55@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/MiniBond.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "MiniBond": [
+      "Pod/Assets/*.png"
+    ]
+  }
+}
