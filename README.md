@@ -13,8 +13,8 @@ The basic idea is came from SwiftBond https://github.com/SwiftBond/Bond
 
 ## Usage
 
-1. Create a `EventProducer` object with the argument that is the real object you want to observe the change.
-2. Create an `Observable` object with a closure that is called when the `EventProducer`'s value object changes.
+1. Create a `EventProducer` object with the argument that is the real object you want to observe the change. This argument is set to the `EventProducer`'s `value` property.
+2. Create an `Observable` object with a closure that is called when the `EventProducer`'s `value` object changes.
 3. Bind to the `EventProducer` with the `Observable` object by `Observable.bindTo(EventProducer)`.
 4. Then, when `EventProducer`'s value object changes, the closure is called.
 
@@ -45,12 +45,12 @@ class ViewController: UIViewController {
 }
 ```
 
-1. Create `count` that is an `EventProducer` with the argument `0`. This integer is what you want to observe the change.
-2. Create `countObservable` with the closure that increases the count.
+1. Create `count` that is an `EventProducer` with the argument `0`. This integer is what you want to observe the change and set to `count.value`. In other words, `count.value == 0`
+2. Create `countObservable` with the closure that changes the label with the number of `self.count.value`.
 3. Bind to the `count` with the `countObservable` by `countObservable.bindTo(count)`.
-4. Then, when `EventProducer`'s value object changes, the closure is called.
+4. Then, when `EventProducer`'s `value` object changes, the closure is called.
 
-Then, when `count`'s value is changed, the closure;
+In the example, when `buttonPushed` is called, the number of `self.count.value` is increased, so the closure
 
 ```
 { [unowned self] eventProducer in
@@ -59,6 +59,8 @@ Then, when `count`'s value is changed, the closure;
 ```
 
 is called.
+
+`[unowned self]` is recommended since it prevents memory leak.
 
 ## Example project
 
