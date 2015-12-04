@@ -9,14 +9,16 @@
 
 MiniBond is a very simple tool for reactive progamming in Swift using observer pattern.
 
-MiniBond
+The basic idea is came from SwiftBond https://github.com/SwiftBond/Bond
+
+## Usage
 
 1. Create a `EventProducer` object with the argument that is the real object you want to observe the change.
 2. Create an `Observable` object with a closure that is called when the `EventProducer`'s value object changes.
 3. Bind to the `EventProducer` with the `Observable` object by `Observable.bindTo(EventProducer)`.
 4. Then, when `EventProducer`'s value object changes, the closure is called.
 
-Here is a example.
+Here is a example usage you can find in the exemple project.
 
 - `EventProducer` object is `count`.
 - `Observable` object it `countObservable`.
@@ -58,7 +60,7 @@ Then, when `count`'s value is changed, the closure;
 
 is called.
 
-## Use with CocoaPods
+## Example project
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
