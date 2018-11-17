@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "MiniBond"
-  s.version          = "0.1.0"
+  s.version          = "0.2.0"
   s.summary          = "A very tiny toolkit for reactive programming in Swift."
 
 # This description is used to generate tags and improve search results.
